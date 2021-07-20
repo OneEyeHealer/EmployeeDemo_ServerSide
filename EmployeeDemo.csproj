@@ -233,6 +233,10 @@
     <Compile Include="Migrations\202106061053147_AddAddress.designer.cs">
       <DependentUpon>202106061053147_AddAddress.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202107170916027_AddAddress1.cs" />
+    <Compile Include="Migrations\202107170916027_AddAddress1.designer.cs">
+      <DependentUpon>202107170916027_AddAddress1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\Employee.cs" />
@@ -345,6 +349,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106061053147_AddAddress.resx">
       <DependentUpon>202106061053147_AddAddress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107170916027_AddAddress1.resx">
+      <DependentUpon>202107170916027_AddAddress1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

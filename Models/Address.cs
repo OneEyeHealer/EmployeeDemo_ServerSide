@@ -13,5 +13,10 @@ namespace EmployeeDemo.Models
         public string HouseNo { get; set; }
         public bool AddressType { get; set; } = false;
         public string Street { get; set; }
+        public string City { get; set; } = "Delhi";
+        public string State { get; set; } = "Delhi";
+        public string Country { get; set; } = "India";
+        public int Pincode { get; set; }
+        public string Landmark { get; set; }
     }
 }
